@@ -10,7 +10,7 @@ public class Relacion7_2 {
         String[] frases = new String[numFra];
         entrada.nextLine();
         System.out.println("Introduce las frases del array:");
-            for (int i = 0; i < numFra; i++) {
+            for (int i = 0; i< numFra; i++) {
             System.out.println("Frase " + (i+1) + ": ");
             frases[i] = entrada.nextLine();
             }
