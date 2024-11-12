@@ -23,7 +23,7 @@ public class Relacion7_5 {
                 contNeg++;
             }
         }
-        System.out.println(sumaNeg/contNeg + " " + sumaPos/contPos);
+        System.out.println("Media de los negativos: " + sumaNeg/contNeg + " " + "Media de los positivos: " + sumaPos/contPos);
             entrada.close();
     }
 }
