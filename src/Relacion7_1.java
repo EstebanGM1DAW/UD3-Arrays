@@ -23,9 +23,6 @@ public class Relacion7_1 {
             }
         }
         System.out.println("El valor " + valor + " aparece " + contador + " veces en el array.");
-
         entrada.close();
     }
-
-
 }

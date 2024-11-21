@@ -6,7 +6,6 @@ public class Relacion7_11 {
             {75, null, null, null, 0, null},
             {null, null, -2, 9, null, 11}
         };
-    
             // Imprimimos la matriz
         for (int fila = 0; fila < num.length; fila++) {
             for (int columna = 0; columna < num[fila].length; columna++) {

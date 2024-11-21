@@ -19,14 +19,14 @@ public class Relacion7_6 {
         int media = suma/cont;
         System.out.println("Media de los alumnos: " + media);
             entrada.close();
-            for (int i = 0; i < tamaño ; i++) {
-                System.out.println("El alumno " + (i+1) + ": ");
-                if (numeros[i]>= media) {
-                    System.out.println("Es mayor o igual a la media = " + numeros[i]);
-                } else {
-                    System.out.println("No es mayor a la media = " + numeros[i]);
-                }
-    }
+        for (int i = 0; i < tamaño ; i++) {
+            System.out.println("El alumno " + (i+1) + ": ");
+            if (numeros[i]>= media) {
+                System.out.println("Es mayor o igual a la media = " + numeros[i]);
+            } else {
+                System.out.println("No es mayor a la media = " + numeros[i]);
+            }
+        }
     }
 }
 
